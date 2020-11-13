@@ -14,9 +14,9 @@ baseurl: ""
 username: FreeFlowGfx
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+typing_text: Ready to play?
 # email: Your E-Mail address for the email button.
-email: email@example.com
+email: freeflowgrafix@gmail.com
 # For every social button you want to display, set your username or userid
 # If you do not use one of the following websites, then leave it empty
 # > twitter_username:
@@ -30,7 +30,7 @@ email: email@example.com
 # show_aboutme_card:
 # > setting this to true, will display the About Me section
 # > setting this to false, will omit the About Me section
-show_aboutme_card: true
+show_aboutme_card: false
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
@@ -40,7 +40,7 @@ about_me_description: This is who we are.
 # show_skills_card:
 # > setting this to true, will display the Skills section
 # > setting this to false, will omit the Skills section
-show_skills_card: true
+show_skills_card: false
 # about_me_title: The will be displayed as the title in the Skills section
 skills_title: Skills
 
@@ -65,7 +65,7 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects
+
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
@@ -77,7 +77,7 @@ projects_title: Projects
 # show_contact_card:
 # > setting this to true, will display the Contact section
 # > setting this to false, will omit the Contact section
-show_contact_card: true
+show_contact_card: false
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.

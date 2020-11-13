@@ -20,7 +20,7 @@ $card-bg-color: linear-gradient(
   rgba(115, 115, 115, 0.15) 15%,
   rgba(43, 45, 47, 1) 80%
 );
-$primary-color: #ff073a;
+$primary-color: #07ee3a;
 
 /* General */
 
@@ -68,7 +68,6 @@ a {
   box-shadow: inset 0 -0.125rem 0 $primary-color;
   box-sizing: border-box;
   color: $primary-color;
-  display: inline-block;
   padding: 0.125rem 0.125rem;
   transition: all 0.2s ease-in-out;
 
@@ -88,7 +87,7 @@ a {
 
 .layout .card {
   background: $card-bg-color;
-  border-radius: 2rem;
+  border-radius: 0rem;
   margin: 3rem 0;
   padding: 1rem 2rem;
 }
@@ -128,12 +127,11 @@ a {
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+
 }
 
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+
 }
 
 /* Preloader */
@@ -546,7 +544,6 @@ a {
   .time {
     background: $bg-color;
     border-radius: 0.5rem;
-    display: inline-block;
     padding: .6rem;
   }
 
@@ -562,8 +559,8 @@ a {
 /* Projects Card */
 
 .project {
-  border-radius: 1rem;
-  margin: 1rem 0;
+  border-radius: 0rem;
+  margin: 0rem 0;
   padding: 0.5rem 1rem;
 }
 
@@ -591,8 +588,7 @@ a {
 }
 
 .tag {
-  border-radius: 0.5rem;
-  display: inline-block;
+  border-radius: 0rem;
   margin-bottom: 0.25rem;
   padding: 0.5rem;
 }
@@ -772,7 +768,6 @@ a {
       }
 
       .flag-wrapper {
-        display: inline-block;
         text-align: right;
       }
 
@@ -789,7 +784,7 @@ a {
     .direction-r {
       float: right;
       text-align: left;
-      width: 18.5rem;
+      width: 18.5rem;q
 
       .hexagon {
         left: -1.6rem;
@@ -798,7 +793,6 @@ a {
       }
 
       .flag-wrapper {
-        display: inline-block;
         text-align: left;
       }
 

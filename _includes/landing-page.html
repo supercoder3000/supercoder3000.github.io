@@ -1,17 +1,18 @@
 <div id="landing">
   <div class="landing-title">
-    <h1>Hi, I&#39;m
-      <span class="highlight-title">{{site.username}}</span>,
+    <h1>Welcome to
+      <span class="highlight-title">{{site.username}}</span>
     </h1>
+    <h1>&nbsp;</h1>
     <h1>
       <span id="txt-rotate" data-period="2000"
-        data-rotate='["{{site.typing_text}}", "scroll down for more."]'
+        data-rotate='["{{site.typing_text}}", "Scroll down!"]'
       >
       </span>
     </h1>
     <div class="landing-icons">
       {% if site.email != null %}
-        <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
+     <!--   <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
           <svg viewBox="0 0 200 200" class="circle">
             <circle cx="100" cy="100" r="80" />
           </svg>
@@ -21,7 +22,7 @@
             </svg>
           </div>
           <span class="label">E-Mail</span>
-        </a>
+        </a> -->
       {% endif %}
 
       {% if site.github_username != null %}
